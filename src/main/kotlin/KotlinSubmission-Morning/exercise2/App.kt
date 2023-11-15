@@ -64,6 +64,6 @@ fun main() {
     val monthNow = "November"
     val birthMonth = "April"
 
-    println("Sekarang bulan $monthNow dan bulan saya lahir $birthMonth")
+    println("It's {$monthNow} now, I was born in {$birthMonth}")
 
 }

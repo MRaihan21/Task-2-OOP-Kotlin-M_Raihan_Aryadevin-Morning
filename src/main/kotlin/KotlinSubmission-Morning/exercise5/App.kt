@@ -78,8 +78,6 @@ fun main() {
         repeat(drink) { hero.minum() }
         repeat(jump) { hero.lompat() }
         repeat(sit) { hero.duduk() }
-
-
     }
 
     Challenge(4,1,3,5,5,3)
