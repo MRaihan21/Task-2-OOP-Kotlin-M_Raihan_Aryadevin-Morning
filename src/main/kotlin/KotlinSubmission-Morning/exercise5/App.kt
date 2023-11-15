@@ -8,6 +8,7 @@ fun main() {
      *
      */
 
+    val hero = Hero()
 
     /**
      * Latihan 2
@@ -16,6 +17,7 @@ fun main() {
      *
      */
 
+    hero.setProfile("M Raihan Aryadevin", 20, 175)
 
 
     /**
@@ -23,6 +25,8 @@ fun main() {
      * Tampilkan data profile dibawah ini, sebelum melakukan aktivitas
      *
      */
+
+    hero.profile()
 
 
 
@@ -66,6 +70,28 @@ fun main() {
      *
      */
 
+    fun Challenge(walk: Int, run: Int, eat: Int, drink: Int, jump: Int, sit: Int) {
+
+        repeat(walk) { hero.jalan() }
+        repeat(run) { hero.lari() }
+        repeat(eat) { hero.makan() }
+        repeat(drink) { hero.minum() }
+        repeat(jump) { hero.lompat() }
+        repeat(sit) { hero.duduk() }
+
+
+    }
+
+    Challenge(4,1,3,5,5,3)
+
+
+
+//    hero.jalan()
+//    hero.lari()
+//    hero.makan()
+//    hero.minum()
+//    hero.lompat()
+//    hero.duduk()
 
 
     /**
@@ -74,6 +100,6 @@ fun main() {
      *
      */
 
-
+    hero.profile()
 
 }
